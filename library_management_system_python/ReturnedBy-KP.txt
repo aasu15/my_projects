@@ -1,0 +1,9 @@
+	             Wabisabi Library
+	 Returned by: KP
+Date: 2021-09-10    Time:13:14:25.528839
+
+S.N.		Bookname		Cost
+1		Harry Potter		$ 2
+3		Programming With Python		$ 1.5
+					Fine: $4
+					Total: $7.5

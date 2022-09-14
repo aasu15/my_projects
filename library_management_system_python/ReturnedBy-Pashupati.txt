@@ -1,0 +1,8 @@
+	             Wabisabi Library
+	 Returned by: Pashupati
+Date: 2021-09-07    Time:15:09:23.072389
+
+S.N.		Bookname		Cost
+3		Programming With Python		$ 1.5
+					Fine: $2
+					Total: $3.5
