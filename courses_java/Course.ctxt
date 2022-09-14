@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Course
+comment0.text=\r\n\ In\ Course\ class\ there\ are\ four\ attributes.\ Attributes\ are\ initialized\ \r\nusing\ a\ constructor\ by\ being\ assigned\ the\ value\ of\ constructor's\ parameter.\r\nEach\ attributes\ has\ accesssor\ method\ and\ one\ attributes\ has\ a\ setter\ method.\r\nDetails\ about\ the\ course\ is\ displayed\ using\ a\ method.\ \r\n\ @author\ (Aasutosh\ Rajopadhyaya)\r\n\ @version\ (Java\ 11.0.2)\r\n
+comment1.params=CourseID\ CourseName\ Duration
+comment1.target=Course(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getCourseID()
+comment3.params=
+comment3.target=java.lang.String\ getCourseLeader()
+comment4.params=
+comment4.target=java.lang.String\ getCourseName()
+comment5.params=
+comment5.target=int\ getDuration()
+comment6.params=CourseLeader
+comment6.target=void\ setCourseLeader(java.lang.String)
+comment7.params=
+comment7.target=void\ display()
+numComments=8
