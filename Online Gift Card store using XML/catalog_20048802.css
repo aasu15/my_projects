@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+store {
+  background-image: url(/Images/Latest\ posts\ of_\ \ s-spooky\ g-g-ghosts.png);
+}
+
+*{
+    overflow-x: hidden;
+}
+
+logo {
+  background-image: url("/Images/logoFinal.png");
+  padding: 60px;
+  margin-top: 20px;
+  background-size: 120px 140px;
+  margin: 40px;
+  /* border-radius: 40px;
+  transform-style: preserve-3d;
+  box-shadow: 1px 5px 10px #888888; */
+}
+
+header {
+  background-color: rgb(34, 47, 86);
+  display: flex;
+  padding: 8px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+store_Name {
+  font-weight: 700;
+  display: block;
+  font-size: 69px;
+  font-family: "Odibee Sans", cursive;
+  color: rgb(86, 136, 179);
+  text-shadow: 2px 2px #16141472;
+}
+
+giftcard{
+  
+    width: 40vh;
+    height: 50vh;
+}
+
+info[game="valo1"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+    bottom: 16em;
+    color: snow;
+}
+info[game="valo2"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+    bottom: -17em;
+    color: snow;
+}
+
+
+info[game="lol1"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+    bottom: -40em;
+    color: snow;
+
+}
+
+
+info[game="lol2"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+    bottom: -68em;
+    color: snow;
+}
+info[game="fort1"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+    bottom: -96em;
+     color: snow;
+}
+info[game="fort2"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+    bottom: -126em;
+   color: snow;}
+
+info[game="twitch1"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+     color: snow;
+    bottom: -154em}
+
+info[game="disc1"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+     color: snow;
+    bottom: -182em;
+}
+
+info[game="disc2"] { 
+    display: block;
+    position: absolute;
+    left: 63em;
+     color: snow;
+    bottom: -216em;
+}
+
+
+
+
+
+gifcard {
+
+  display: flex;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 40vh;
+  height: 50vh;
+  border-radius: 19px;
+  justify-content:left;
+  
+}
+
+
+
+name,
+brand,
+price,
+release_Date,
+genre,
+website,
+type {
+  display: block;
+}
+
+name {
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+gifcard[id="valor-1"]{
+    background-image: url(/Images/valorant_25.jpg);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="valor-2"]{
+    background-image: url(/Images/Valorant-100.jpg);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="lol-1"]{
+    background-image: url(/Images/lol-10.webp);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="lol-2"]{
+    background-image: url(/Images/lol-100.webp);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="fortnite-1"]{
+    background-image: url(/Images/fortnite-1000.jpeg);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="fortnite-2"]{
+    background-image: url(/Images/fortnite_2800.webp);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="disc-1"]{
+    background-image: url(/Images/discord_5.png);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="disc-2"]{
+    background-image: url(/Images/discord_nitro_10.png);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="twitch-1"]{
+    background-image: url(/Images/twich_25.jpg);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+gifcard[id="xbox-1"]{
+    background-image: url(/Images/xbox-100.jpeg);
+    background-size: cover;
+    width: 40vh;
+    height: 50vh;
+}
+
+
+#valor-1:hover,#valor-2:hover,#lol-1:hover,#lol-2:hover,#fortnite-1:hover,#fortnite-2:hover,#disc-1:hover,
+#disc-2:hover,#twitch-1:hover,#xbox-1:hover{
+	transform: scale(1.05);
+	transition: 0.5s;
+	cursor: pointer;
+} 
+
+
+/* name:hover,brand:hover,release_Date:hover,genre:hover,type:hover{
+    visibility:visible;
+    cursor: pointer;
+} */
+
+
+footer,
+store_address,
+store_Phone,
+store_website {
+  display: block;
+}
+
+store_address,
+store_Phone,
+store_website, rights, copyright{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgb(34, 47, 86);
+  color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}

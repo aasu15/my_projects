@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    Author: AASUTOSH RAJOPADHYAYA
+    DATE:   27 April, 2022
+    LondonmetID: 20048802
+ -->
+<?xml-stylesheet href="catalog_20048802.css" type="text/css"?>
+<?xml-model href="catalog_20048802.xsd" type="application/xml"?> 
+<store>
+    <header>
+        <logo></logo>
+        <information>
+            <store_Name>Assthetic Corner</store_Name>
+        </information>
+    </header>
+    <giftCards>
+        <giftcard>
+            <gifcard name="Valorant" id="valor-1" />
+            <info game="valo1">
+                <name>Valorant</name>
+                <price currency="Dollar">25$</price>
+                <type>Digital</type>
+                <brand>Riot Games</brand>
+                <release_Date>
+                    <YEAR>2022</YEAR>
+                    <Month>03</Month>
+                    <DAY>25</DAY>
+                </release_Date>
+                <date_Of_Expiry>
+                    <YEAR>2023</YEAR>
+                    <Month>03</Month>
+                    <DAY>25</DAY>
+                </date_Of_Expiry>
+                <genre>FPS</genre>
+                <region>Europe</region>
+            </info>
+        </giftcard>
+
+        <giftcard>
+            <gifcard name="Valorant" id="valor-2" />
+            <info game="valo2">
+                <name>Valorant</name>
+                <price currency="Pound">100£</price>
+                <type>Digital</type>
+                <brand>Riot Games</brand>
+                <release_Date>
+                    <YEAR>2022</YEAR>
+                    <Month>03</Month>
+                    <DAY>30</DAY>
+                </release_Date>
+                <date_Of_Expiry>
+                    <YEAR>2023</YEAR>
+                    <Month>09</Month>
+                    <DAY>25</DAY>
+                </date_Of_Expiry>
+                <genre>FPS</genre>
+            </info>
+        </giftcard>
+
+        <giftcard>
+            <gifcard name="League Of Legends" id="lol-1"/>
+            <info game="lol1">
+                <name>League Of Legends</name>
+                <price currency="Dollar">10$</price>
+                <type>Digital</type>
+                <brand>Riot Games</brand>
+                <release_Date>
+                    <YEAR>2022</YEAR>
+                    <Month>03</Month>
+                    <DAY>30</DAY>
+                </release_Date>
+                <date_Of_Expiry>
+                    <YEAR>2025</YEAR>
+                    <Month>01</Month>
+                    <DAY>6</DAY>
+                </date_Of_Expiry>
+                <genre>MOBA</genre>
+                <region>North America</region>
+        </info>
+        </giftcard>
+
+        <giftcard>
+            <gifcard name="League Of Legends" id="lol-2"/>
+            <info game="lol2">
+                <name>League Of Legends</name>
+                <price currency="Pound">100£</price>
+                <type>Digital</type>
+                <brand>Riot Games</brand>
+                <release_Date>
+                    <YEAR>2022</YEAR>
+                    <Month>03</Month>
+                    <DAY>30</DAY>
+                </release_Date>
+                <date_Of_Expiry>
+                    <YEAR>2023</YEAR>
+                    <Month>06</Month>
+                    <DAY>09</DAY>
+                </date_Of_Expiry>
+                <genre>MOBA</genre>
+            </info>
+        </giftcard>
+
+        <giftcard>
+            <gifcard name="Fortnite" id="fortnite-1"/>
+            <info game="fort1">
+                <name>Fortnite</name>
+                <price currency="Dollar">19.99$</price>
+                <type>Digital</type>
+                <brand>Epic Games</brand>
+                <release_Date>
+                    <YEAR>2022</YEAR>
+                    <Month>02</Month>
+                    <DAY>3</DAY>
+                </release_Date>
+                <genre>FPS</genre>
+            </info>
+        </giftcard>
+
+        <giftcard>
+            <gifcard name="Fortnite" id="fortnite-2"/>
+            <info game="fort2">
+                <name>Fortnite</name>
+                <price currency="Pound">7.98£</price>
+                <type>Digital</type>
+                <brand>Epic Games</brand>
+                <release_Date>
+                    <YEAR>2022</YEAR>
+                    <Month>4</Month>
+                    <DAY>24</DAY>
+                </release_Date>
+                <genre>FPS</genre>
+            </info>
+        </giftcard>
+
+        <giftcard>
+            <gifcard name="Twitch" id="twitch-1"/>
+            <info game="twitch1">
+                <name>Twitch</name>
+                <price currency="Dollar">25$</price>
+                <type>Digital</type>
+                <release_Date>
+                    <YEAR>2022</YEAR>
+                    <Month>05</Month>
+                    <DAY>01</DAY>
+                </release_Date>
+                <genre>Streaming</genre>
+            </info>
+        </giftcard>
+
+        <giftcard>
+            <gifcard name="Discord" id="disc-1"/>
+            <info game="disc1">
+                <name>Discord Nitro</name>
+                <price currency="Dollar">5$</price>
+                <type>Digital</type>
+                <brand>Discord Inc.</brand>
+                <genre>Social</genre>
+            </info>
+        </giftcard>
+
+        <giftcard>
+            <gifcard name="Discord" id="disc-2"/>
+            <info game="disc2">
+                <name>Discord Nitro</name>
+                <price currency="Pound">10£</price>
+                <type>Digital</type>
+                <brand>Discord Inc.</brand>
+                <release_Date>
+                    <YEAR>2022</YEAR>
+                    <Month>05</Month>
+                    <DAY>01</DAY>
+                </release_Date>
+                <date_Of_Expiry>
+                    <YEAR>2023</YEAR>
+                    <Month>03</Month>
+                    <DAY>25</DAY>
+                </date_Of_Expiry>
+                <region>Oceiana</region>
+            </info>
+        </giftcard>
+    </giftCards>
+    <footer>
+        <store_Address location="City">Chelsea, London</store_Address>
+        <store_Phone>99990000 </store_Phone>
+        <store_Website>www.penutbutterandJelly.com.uk</store_Website>
+        <copyright>2022 Copyright by Assthetic Corner. </copyright>
+        <rights>All rights reserved.</rights>
+    </footer>
+</store>

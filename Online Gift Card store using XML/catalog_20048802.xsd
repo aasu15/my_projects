@@ -1,0 +1,139 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="store_Name" type="xs:string" />
+    <xs:element name="logo" type="xs:string" />
+    <xs:element name="information">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="store_Name" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="YEAR" type="xs:short" />
+    <xs:element name="Month" type="xs:byte" />
+    <xs:element name="DAY" type="xs:byte" />
+    <xs:element name="name" type="xs:string" />
+    <xs:element name="brand" type="xs:string" />
+    <xs:element name="price">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="currency" use="required" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute name="currency">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Dollar"></xs:enumeration>
+                <xs:enumeration value="Pound"></xs:enumeration>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:element name="release_Date">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="YEAR" />
+                <xs:element ref="Month" />
+                <xs:element ref="DAY" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="date_Of_Expiry">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="YEAR" />
+                <xs:element ref="Month" />
+                <xs:element ref="DAY" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="genre" type="xs:string" />
+    <xs:element name="region" type="xs:string" />
+    <xs:element name="type" type="xs:string" />
+    <xs:element name="gifcard">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="name" use="required" />
+                    <xs:attribute ref="id" use="required" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute type="xs:string" name="name"/>
+    <xs:attribute type="xs:string" name="id"/>
+    <xs:element name="info">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="name" />
+                <xs:element ref="price" />
+                <xs:element ref="type" />
+                <xs:element ref="brand" minOccurs="0" />
+                <xs:element ref="release_Date" minOccurs="0" />
+                <xs:element ref="date_Of_Expiry" minOccurs="0" />
+                <xs:element ref="genre" minOccurs="0" />
+                <xs:element ref="region" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute ref="game" use="optional" />
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute type="xs:string" name="game" />
+    <xs:element name="giftcard">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="gifcard" />
+                <xs:element ref="info" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="store_Address">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute ref="location" />
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+    <xs:attribute type="xs:string" name="location" />
+    <xs:element name="store_Phone" type="xs:float" />
+    <xs:element name="store_Website" type="xs:anyURI" />
+    <xs:element name="copyright" type="xs:string" />
+    <xs:element name="rights" type="xs:string" />
+    <xs:element name="header">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="logo" />
+                <xs:element ref="information" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="giftCards">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="giftcard" maxOccurs="unbounded" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="footer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="store_Address" />
+                <xs:element ref="store_Phone" />
+                <xs:element ref="store_Website" />
+                <xs:element ref="copyright" />
+                <xs:element ref="rights" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="store">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="header" />
+                <xs:element ref="giftCards" />
+                <xs:element ref="footer" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
